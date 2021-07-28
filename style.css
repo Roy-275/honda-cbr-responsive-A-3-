@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+    color: #fff;
 }
 /* header seciton customization */
 header{
@@ -13,9 +14,15 @@ header{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
-.nav-btn{
+.nav-btn,
+.modal-btn{
     background: #E76F51;
 }
 .nav-btn:hover {
     background: #e76f51ce;
+}
+/* latest bike section */
+.header-title{
+    font-size: 48px;
+    font-weight: 600;
 }
