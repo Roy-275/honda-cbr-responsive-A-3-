@@ -26,3 +26,9 @@ header{
     font-size: 48px;
     font-weight: 600;
 }
+/* media query for small devices */
+@media only screen and (max-width: 576px) {
+    .header-title{
+        font-size: 32px;
+    }
+}
