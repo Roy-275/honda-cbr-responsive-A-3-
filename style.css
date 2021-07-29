@@ -4,6 +4,9 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
+.my-container{
+    margin-bottom: 160px;
+}
 /* header seciton customization */
 header{
     background: #264653;
@@ -15,7 +18,8 @@ header{
     font-weight: 500;
 }
 .nav-btn,
-.modal-btn{
+.modal-btn,
+.card-btn{
     background: #E76F51;
 }
 .nav-btn:hover {
@@ -27,7 +31,9 @@ main{
 }
 /* latest bike customization */
 .header-title,
-.features-title{
+.features-title,
+.latest-news,
+.client-title{
     font-size: 48px;
     font-weight: 600;
 }
@@ -51,11 +57,53 @@ main{
 .featured-bikes img{
     width: 100%;
 }
+/* latest news customization */
+.new-card{
+    font-size: 28px;
+    font-weight: 600;
+}
+.card-btn-outline{
+    border: 1px solid #E76F51;
+    color: #E76F51;
+}
+.card-btn-outline:hover{
+    background-color: #E76F51;
+    outline: none;
+    color: white;
+}
+/* client section customization */
+.client-span{
+    color: #E76F51;
+}
 
+
+/* media query for medium devices */
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+    .my-container{
+    margin-bottom: 120px;
+    }
+    .header-title,
+    .features-title,
+    .latest-news,
+    .client-title{
+        font-size: 32px;
+    }
+    .center-hr-line{
+        margin-bottom: 60px;
+    }
+}
 /* media query for small devices */
 @media only screen and (max-width: 576px) {
+    .my-container{
+    margin-bottom: 80px;
+    }
     .header-title,
-    .features-title{
+    .features-title,
+    .latest-news,
+    .client-title{
         font-size: 32px;
+    }
+    .center-hr-line{
+        margin-bottom: 60px;
     }
 }
