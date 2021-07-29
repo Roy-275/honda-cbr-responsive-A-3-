@@ -21,14 +21,41 @@ header{
 .nav-btn:hover {
     background: #e76f51ce;
 }
-/* latest bike section */
-.header-title{
+/* main part of the webpage */
+main{
+    color: black;
+}
+/* latest bike customization */
+.header-title,
+.features-title{
     font-size: 48px;
     font-weight: 600;
 }
+/* latest features customization */
+.feature-description{
+    color: #E76F51;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.center-hr-line{
+    opacity: 1;
+    width: 60px;
+    margin: auto;
+    margin-bottom: 120px;
+    background-color: #E76F51;
+    border: 1px solid #E76F51;
+}
+.filtered{
+    filter: grayscale(100%);
+}
+.featured-bikes img{
+    width: 100%;
+}
+
 /* media query for small devices */
 @media only screen and (max-width: 576px) {
-    .header-title{
+    .header-title,
+    .features-title{
         font-size: 32px;
     }
 }
